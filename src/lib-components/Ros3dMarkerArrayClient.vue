@@ -3,22 +3,25 @@
 </template>
 
 <script>
+
 /**
+ * Based on https://github.com/LdwgWffnschmdt/vue-ros3djs/blob/master/src/lib-components/Ros3dMarkerClient.vue
  * @author Ludwig Waffenschmidt - ludwig.waffenschmidt@outlook.com
  */
+
 import * as ROS3D from 'ros3d'
+
 /**
- * A marker client that listens to a given marker topic.
- * It is a wrapper for [`ROS3D.MarkerClient`]{@link http://robotwebtools.org/jsdoc/ros3djs/current/ROS3D.MarkerClient.html}.
- * This custom version of it fires an event when our marker changes that contains information about the marker.
+ * A marker array client that listens to a given marker array topic.
+ * It is a wrapper for [`ROS3D.MarkerArrayClient`]{@link http://robotwebtools.org/jsdoc/ros3djs/current/ROS3D.MarkerArrayClient.html}.
  *
  * @vue-prop {Boolean} [visible=true] - Visibility of this object
- * @vue-prop {String} [topic=] - The marker topic to listen to
+ * @vue-prop {String} [topic=] - The marker array topic to listen to
  *
- * @vue-data {ROS3D.MarkerClient} object - Handle for the internal [ROS3D.MarkerClient]{@link http://robotwebtools.org/jsdoc/ros3djs/current/ROS3D.MarkerClient.html}
+ * @vue-data {ROS3D.MarkerArrayClient} object - Handle for the internal [ROS3D.MarkerArrayClient]{@link http://robotwebtools.org/jsdoc/ros3djs/current/ROS3D.MarkerArrayClient.html}
  */
 export default {
-  name: 'ros3d-marker-client',
+  name: 'ros3d-marker-array-client',
   props: {
     visible: {
       type: Boolean,
@@ -51,19 +54,14 @@ export default {
     }
   },
   mounted() {
-    this.object = new ROS3D.MarkerClient({
+    this.object = new ROS3D.MarkerArrayClient({
       ros : this.$parent.ros,
       tfClient : this.$parent.tfClient,
       topic : this.topic,
     });
     this.object.name = this._uid;
-    this.object.on('change', () => this.$emit('update:marker', {
-      topic: this.topic,
-      frame: this.object.markers[0].frameID,
-      marker: this.object.markers[0].children[0]
-    }));
     if (this.visible) {
-      this.show();
+      this.$parent.viewer.scene.add(this.object.rootObject);
     }
   },
   beforeDestroy() {

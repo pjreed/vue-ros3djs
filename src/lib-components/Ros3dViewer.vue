@@ -7,6 +7,7 @@
 
 <script>
 /**
+ * Based on https://github.com/LdwgWffnschmdt/vue-ros3djs/blob/master/src/lib-components/Ros3dViewer.vue
  * @author Ludwig Waffenschmidt - ludwig.waffenschmidt@outlook.com
  */
 
@@ -74,6 +75,11 @@ export default {
       type: Number,
       default: 750,
       require: false
+    },
+    initialCameraPose: {
+      type: Object,
+      require: false,
+      default: function () { return { x: 8, y: 7, z: 50 } }
     }
   },
   data: () => ({
@@ -115,12 +121,9 @@ export default {
       antialias : this.antialias,
       background: this.background,
       displayPanAndZoomFrame: false,
-      cameraPose: {
-        x: 8,
-        y: 7,
-        z: 50
-      }
+      cameraPose: this.initialCameraPose
     });
+    window.addEventListener('resize', this.handleResize);
 
     // Add TWEEN.update() to draw loop (for smooth animations)
     this.viewer.draw = () => {
@@ -131,8 +134,8 @@ export default {
     // Setup a client to listen to TFs.
     this.tfClient = new ROSLIB.TFClient({
       ros : this.ros,
-      angularThres : 0.01,
-      transThres : 0.01,
+      angularThres : 0.0001,
+      transThres : 0.0001,
       rate : 10.0,
       fixedFrame : this.fixedFrame
     });
@@ -171,7 +174,13 @@ export default {
 
     this.loaded = true;
   },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.handleResize);
+  },
   methods: {
+    handleResize() {
+      this.viewer.resize(this.$el.clientWidth, this.$el.clientHeight);
+    },
     startTimer() {
       if (this.timer) clearTimeout(this.timer);
       this.timer = setTimeout(() => this.hold = true, this.longPressDuration);
