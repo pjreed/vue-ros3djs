@@ -2171,7 +2171,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dArrow.vue?vue&type=template&id=1633a24c&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dArrow.vue?vue&type=template&id=1633a24c&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var staticRenderFns = []
 
@@ -2476,7 +2476,7 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dArrow = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dAxes.vue?vue&type=template&id=fb20c40e&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dAxes.vue?vue&type=template&id=fb20c40e&
 var Ros3dAxesvue_type_template_id_fb20c40e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dAxesvue_type_template_id_fb20c40e_staticRenderFns = []
 
@@ -2657,7 +2657,7 @@ var Ros3dAxes_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dAxes = (Ros3dAxes_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dGrid.vue?vue&type=template&id=350f80dc&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dGrid.vue?vue&type=template&id=350f80dc&
 var Ros3dGridvue_type_template_id_350f80dc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dGridvue_type_template_id_350f80dc_staticRenderFns = []
 
@@ -2784,7 +2784,7 @@ var Ros3dGrid_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dGrid = (Ros3dGrid_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dInteractiveMarkerClient.vue?vue&type=template&id=e5e21b42&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dInteractiveMarkerClient.vue?vue&type=template&id=e5e21b42&
 var Ros3dInteractiveMarkerClientvue_type_template_id_e5e21b42_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dInteractiveMarkerClientvue_type_template_id_e5e21b42_staticRenderFns = []
 
@@ -2883,7 +2883,7 @@ var Ros3dInteractiveMarkerClient_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dInteractiveMarkerClient = (Ros3dInteractiveMarkerClient_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dLaserScan.vue?vue&type=template&id=60ca88cc&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dLaserScan.vue?vue&type=template&id=60ca88cc&
 var Ros3dLaserScanvue_type_template_id_60ca88cc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dLaserScanvue_type_template_id_60ca88cc_staticRenderFns = []
 
@@ -3048,7 +3048,7 @@ var Ros3dLaserScan_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dLaserScan = (Ros3dLaserScan_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerArrayClient.vue?vue&type=template&id=261c7111&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerArrayClient.vue?vue&type=template&id=261c7111&
 var Ros3dMarkerArrayClientvue_type_template_id_261c7111_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dMarkerArrayClientvue_type_template_id_261c7111_staticRenderFns = []
 
@@ -3148,7 +3148,7 @@ var Ros3dMarkerArrayClient_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dMarkerArrayClient = (Ros3dMarkerArrayClient_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerClient.vue?vue&type=template&id=6cc5815c&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerClient.vue?vue&type=template&id=6cc5815c&
 var Ros3dMarkerClientvue_type_template_id_6cc5815c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dMarkerClientvue_type_template_id_6cc5815c_staticRenderFns = []
 
@@ -3257,7 +3257,7 @@ var Ros3dMarkerClient_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dMarkerClient = (Ros3dMarkerClient_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dOccupancyGridClient.vue?vue&type=template&id=9129ddec&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dOccupancyGridClient.vue?vue&type=template&id=9129ddec&
 var Ros3dOccupancyGridClientvue_type_template_id_9129ddec_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dOccupancyGridClientvue_type_template_id_9129ddec_staticRenderFns = []
 
@@ -3421,7 +3421,7 @@ var Ros3dOccupancyGridClient_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dOccupancyGridClient = (Ros3dOccupancyGridClient_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dPath.vue?vue&type=template&id=25342f76&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dPath.vue?vue&type=template&id=25342f76&
 var Ros3dPathvue_type_template_id_25342f76_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dPathvue_type_template_id_25342f76_staticRenderFns = []
 
@@ -3529,12 +3529,12 @@ var Ros3dPath_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dPath = (Ros3dPath_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dPointCloud2.vue?vue&type=template&id=35d5fb3f&
-var Ros3dPointCloud2vue_type_template_id_35d5fb3f_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
-var Ros3dPointCloud2vue_type_template_id_35d5fb3f_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dPointCloud2.vue?vue&type=template&id=7de16a9e&
+var Ros3dPointCloud2vue_type_template_id_7de16a9e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
+var Ros3dPointCloud2vue_type_template_id_7de16a9e_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/lib-components/Ros3dPointCloud2.vue?vue&type=template&id=35d5fb3f&
+// CONCATENATED MODULE: ./src/lib-components/Ros3dPointCloud2.vue?vue&type=template&id=7de16a9e&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dPointCloud2.vue?vue&type=script&lang=js&
 
@@ -3562,6 +3562,9 @@ var Ros3dPointCloud2vue_type_template_id_35d5fb3f_staticRenderFns = []
  * @vue-prop {Object} [colormap] - Function that turns the colorsrc field value to a color
  * @vue-prop {Number} [particleSize=0.25] - Size of the particles
  * @vue-prop {String} [color=#009688] - The color to use for the particles
+ * @vue-prop {Boolean} [sizeAttenuation=true] - Whether points' size is attenuated by the camera depth.
+ * @vue-prop {Boolean} [transparent=false] - Defines whether this material is transparent.
+ * @vue-prop {Number} [opacity=1.0] - Value indicating how transparent the material is.
  * 
  * @vue-data {ROS3D.PointCloud2} object - Handle for the internal [ROS3D.PointCloud2]{@link http://robotwebtools.org/jsdoc/ros3djs/current/ROS3D.PointCloud2.html}
  */
@@ -3618,6 +3621,21 @@ var Ros3dPointCloud2vue_type_template_id_35d5fb3f_staticRenderFns = []
       type: Number,
       default: 0.25,
       require: false
+    },
+    sizeAttenuation: {
+      type: Boolean,
+      default: true,
+      require: false
+    },
+    transparent: {
+      type: Boolean,
+      default: false,
+      require: false
+    },
+    opacity: {
+      type: Number,
+      default: 1.0,
+      require: false
     }
   },
   watch: {
@@ -3651,6 +3669,15 @@ var Ros3dPointCloud2vue_type_template_id_35d5fb3f_staticRenderFns = []
     },
     particleSize: function particleSize() {
       this.$nextTick(this.createObject);
+    },
+    sizeAttenuation: function sizeAttenuation() {
+      this.$nextTick(this.createObject);
+    },
+    transparent: function transparent() {
+      this.$nextTick(this.createObject);
+    },
+    opacity: function opacity() {
+      this.$nextTick(this.createObject);
     }
   },
   methods: {
@@ -3676,7 +3703,10 @@ var Ros3dPointCloud2vue_type_template_id_35d5fb3f_staticRenderFns = []
         messageRatio: this.messageRatio,
         material: {
           color: this.color,
-          size: this.particleSize
+          size: this.particleSize,
+          sizeAttenuation: this.sizeAttenuation,
+          transparent: this.transparent,
+          opacity: this.opacity
         }
       });
       this.object.name = this._uid;
@@ -3703,8 +3733,8 @@ var Ros3dPointCloud2vue_type_template_id_35d5fb3f_staticRenderFns = []
 
 var Ros3dPointCloud2_component = normalizeComponent(
   lib_components_Ros3dPointCloud2vue_type_script_lang_js_,
-  Ros3dPointCloud2vue_type_template_id_35d5fb3f_render,
-  Ros3dPointCloud2vue_type_template_id_35d5fb3f_staticRenderFns,
+  Ros3dPointCloud2vue_type_template_id_7de16a9e_render,
+  Ros3dPointCloud2vue_type_template_id_7de16a9e_staticRenderFns,
   false,
   null,
   null,
@@ -3713,7 +3743,7 @@ var Ros3dPointCloud2_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dPointCloud2 = (Ros3dPointCloud2_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dPoseArrow.vue?vue&type=template&id=0d362dc9&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dPoseArrow.vue?vue&type=template&id=0d362dc9&
 var Ros3dPoseArrowvue_type_template_id_0d362dc9_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dPoseArrowvue_type_template_id_0d362dc9_staticRenderFns = []
 
@@ -3861,7 +3891,7 @@ var Ros3dPoseArrow_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dPoseArrow = (Ros3dPoseArrow_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dSceneNode.vue?vue&type=template&id=510b170d&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dSceneNode.vue?vue&type=template&id=510b170d&
 var Ros3dSceneNodevue_type_template_id_510b170d_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dSceneNodevue_type_template_id_510b170d_staticRenderFns = []
 
@@ -3969,7 +3999,7 @@ var Ros3dSceneNode_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dSceneNode = (Ros3dSceneNode_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dUrdfClient.vue?vue&type=template&id=0206647a&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dUrdfClient.vue?vue&type=template&id=0206647a&
 var Ros3dUrdfClientvue_type_template_id_0206647a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
 var Ros3dUrdfClientvue_type_template_id_0206647a_staticRenderFns = []
 
@@ -4073,7 +4103,7 @@ var Ros3dUrdfClient_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dUrdfClient = (Ros3dUrdfClient_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"60a37599-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dViewer.vue?vue&type=template&id=7e0b2956&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1ff6681e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dViewer.vue?vue&type=template&id=7e0b2956&
 var Ros3dViewervue_type_template_id_7e0b2956_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.loaded)?_vm._t("default"):_vm._e()],2)}
 var Ros3dViewervue_type_template_id_7e0b2956_staticRenderFns = []
 
