@@ -23,6 +23,7 @@ import * as ROS3D from 'ros3d'
  * @vue-prop {Object} [colormap] - Function that turns the colorsrc field value to a color
  * @vue-prop {Number} [particleSize=0.25] - Size of the particles
  * @vue-prop {String} [color=#009688] - The color to use for the particles
+ * @vue-prop {Boolean} [sizeAttenuation=true] - Whether points' size is attenuated by the camera depth.
  * 
  * @vue-data {ROS3D.PointCloud2} object - Handle for the internal [ROS3D.PointCloud2]{@link http://robotwebtools.org/jsdoc/ros3djs/current/ROS3D.PointCloud2.html}
  */
@@ -79,6 +80,11 @@ export default {
       default: 0.25,
       require: false,
     }
+    sizeAttenuation: {
+      type: Boolean,
+      default: true,
+      require: false,
+    },
   },
   watch: {
     visible(newState) {
@@ -113,6 +119,9 @@ export default {
     particleSize() {
       this.$nextTick(this.createObject);
     }
+    sizeAttenuation() {
+      this.$nextTick(this.createObject);
+    }
   },
   methods: {
     show() {
@@ -138,7 +147,8 @@ export default {
         messageRatio: this.messageRatio,
         material: {
           color: this.color,
-          size: this.particleSize
+          size: this.particleSize,
+          sizeAttenuation: this.sizeAttenuation
         }
       });
       this.object.name = this._uid;
