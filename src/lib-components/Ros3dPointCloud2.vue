@@ -24,6 +24,8 @@ import * as ROS3D from 'ros3d'
  * @vue-prop {Number} [particleSize=0.25] - Size of the particles
  * @vue-prop {String} [color=#009688] - The color to use for the particles
  * @vue-prop {Boolean} [sizeAttenuation=true] - Whether points' size is attenuated by the camera depth.
+ * @vue-prop {Boolean} [transparent=false] - Defines whether this material is transparent.
+ * @vue-prop {Number} [opacity=1.0] - Value indicating how transparent the material is.
  * 
  * @vue-data {ROS3D.PointCloud2} object - Handle for the internal [ROS3D.PointCloud2]{@link http://robotwebtools.org/jsdoc/ros3djs/current/ROS3D.PointCloud2.html}
  */
@@ -85,6 +87,16 @@ export default {
       default: true,
       require: false,
     },
+    transparent: {
+      type: Boolean,
+      default: false,
+      require: false,
+    },
+    opacity: {
+      type: Number,
+      default: 1.0,
+      require: false,
+    },
   },
   watch: {
     visible(newState) {
@@ -122,6 +134,12 @@ export default {
     sizeAttenuation() {
       this.$nextTick(this.createObject);
     }
+    transparent() {
+      this.$nextTick(this.createObject);
+    }
+    opacity() {
+      this.$nextTick(this.createObject);
+    }
   },
   methods: {
     show() {
@@ -148,7 +166,9 @@ export default {
         material: {
           color: this.color,
           size: this.particleSize,
-          sizeAttenuation: this.sizeAttenuation
+          sizeAttenuation: this.sizeAttenuation,
+          transparent: this.transparent,
+          opacity: this.opacity
         }
       });
       this.object.name = this._uid;
