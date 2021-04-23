@@ -81,7 +81,7 @@ export default {
       type: Number,
       default: 0.25,
       require: false,
-    }
+    },
     sizeAttenuation: {
       type: Boolean,
       default: true,
@@ -130,13 +130,13 @@ export default {
     },
     particleSize() {
       this.$nextTick(this.createObject);
-    }
+    },
     sizeAttenuation() {
       this.$nextTick(this.createObject);
-    }
+    },
     transparent() {
       this.$nextTick(this.createObject);
-    }
+    },
     opacity() {
       this.$nextTick(this.createObject);
     }
