@@ -23,13 +23,18 @@ export default {
     visible: {
       type: Boolean,
       default: true,
-      require: false,
+      required: false,
     },
     topic: {
       type: String,
       default: '',
-      require: false,
+      required: false,
     },
+    useMeshLine: {
+      type: Boolean,
+      default: false,
+      required: false
+    }
   },
   watch: {
     topic(n) {
@@ -55,6 +60,7 @@ export default {
       ros : this.$parent.ros,
       tfClient : this.$parent.tfClient,
       topic : this.topic,
+      useMeshLine : this.useMeshLine,
     });
     this.object.name = this._uid;
     this.object.on('change', () => this.$emit('update:marker', {

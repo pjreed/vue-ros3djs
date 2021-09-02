@@ -33,6 +33,11 @@ export default {
       default: '',
       require: false,
     },
+    useMeshLine: {
+      type: Boolean,
+      default: false,
+      required: false,
+    }
   },
   watch: {
     topic(n) {
@@ -58,6 +63,7 @@ export default {
       ros : this.$parent.ros,
       tfClient : this.$parent.tfClient,
       topic : this.topic,
+      useMeshLine : this.useMeshLine,
     });
     this.object.name = this._uid;
     if (this.visible) {

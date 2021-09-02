@@ -3207,12 +3207,12 @@ var Ros3dLaserScan_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dLaserScan = (Ros3dLaserScan_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5e05b96e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerArrayClient.vue?vue&type=template&id=261c7111&
-var Ros3dMarkerArrayClientvue_type_template_id_261c7111_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
-var Ros3dMarkerArrayClientvue_type_template_id_261c7111_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5e05b96e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerArrayClient.vue?vue&type=template&id=70d5d692&
+var Ros3dMarkerArrayClientvue_type_template_id_70d5d692_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
+var Ros3dMarkerArrayClientvue_type_template_id_70d5d692_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/lib-components/Ros3dMarkerArrayClient.vue?vue&type=template&id=261c7111&
+// CONCATENATED MODULE: ./src/lib-components/Ros3dMarkerArrayClient.vue?vue&type=template&id=70d5d692&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerArrayClient.vue?vue&type=script&lang=js&
 
@@ -3248,6 +3248,11 @@ var Ros3dMarkerArrayClientvue_type_template_id_261c7111_staticRenderFns = []
       type: String,
       default: '',
       require: false
+    },
+    useMeshLine: {
+      type: Boolean,
+      default: false,
+      required: false
     }
   },
   watch: {
@@ -3272,7 +3277,8 @@ var Ros3dMarkerArrayClientvue_type_template_id_261c7111_staticRenderFns = []
     this.object = new external_ros3d_["MarkerArrayClient"]({
       ros: this.$parent.ros,
       tfClient: this.$parent.tfClient,
-      topic: this.topic
+      topic: this.topic,
+      useMeshLine: this.useMeshLine
     });
     this.object.name = this._uid;
 
@@ -3297,8 +3303,8 @@ var Ros3dMarkerArrayClientvue_type_template_id_261c7111_staticRenderFns = []
 
 var Ros3dMarkerArrayClient_component = normalizeComponent(
   lib_components_Ros3dMarkerArrayClientvue_type_script_lang_js_,
-  Ros3dMarkerArrayClientvue_type_template_id_261c7111_render,
-  Ros3dMarkerArrayClientvue_type_template_id_261c7111_staticRenderFns,
+  Ros3dMarkerArrayClientvue_type_template_id_70d5d692_render,
+  Ros3dMarkerArrayClientvue_type_template_id_70d5d692_staticRenderFns,
   false,
   null,
   null,
@@ -3307,12 +3313,12 @@ var Ros3dMarkerArrayClient_component = normalizeComponent(
 )
 
 /* harmony default export */ var Ros3dMarkerArrayClient = (Ros3dMarkerArrayClient_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5e05b96e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerClient.vue?vue&type=template&id=6cc5815c&
-var Ros3dMarkerClientvue_type_template_id_6cc5815c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
-var Ros3dMarkerClientvue_type_template_id_6cc5815c_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5e05b96e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerClient.vue?vue&type=template&id=2230a3ea&
+var Ros3dMarkerClientvue_type_template_id_2230a3ea_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div')}
+var Ros3dMarkerClientvue_type_template_id_2230a3ea_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/lib-components/Ros3dMarkerClient.vue?vue&type=template&id=6cc5815c&
+// CONCATENATED MODULE: ./src/lib-components/Ros3dMarkerClient.vue?vue&type=template&id=2230a3ea&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib-components/Ros3dMarkerClient.vue?vue&type=script&lang=js&
 
@@ -3342,12 +3348,17 @@ var Ros3dMarkerClientvue_type_template_id_6cc5815c_staticRenderFns = []
     visible: {
       type: Boolean,
       default: true,
-      require: false
+      required: false
     },
     topic: {
       type: String,
       default: '',
-      require: false
+      required: false
+    },
+    useMeshLine: {
+      type: Boolean,
+      default: false,
+      required: false
     }
   },
   watch: {
@@ -3374,7 +3385,8 @@ var Ros3dMarkerClientvue_type_template_id_6cc5815c_staticRenderFns = []
     this.object = new external_ros3d_["MarkerClient"]({
       ros: this.$parent.ros,
       tfClient: this.$parent.tfClient,
-      topic: this.topic
+      topic: this.topic,
+      useMeshLine: this.useMeshLine
     });
     this.object.name = this._uid;
     this.object.on('change', function () {
@@ -3406,8 +3418,8 @@ var Ros3dMarkerClientvue_type_template_id_6cc5815c_staticRenderFns = []
 
 var Ros3dMarkerClient_component = normalizeComponent(
   lib_components_Ros3dMarkerClientvue_type_script_lang_js_,
-  Ros3dMarkerClientvue_type_template_id_6cc5815c_render,
-  Ros3dMarkerClientvue_type_template_id_6cc5815c_staticRenderFns,
+  Ros3dMarkerClientvue_type_template_id_2230a3ea_render,
+  Ros3dMarkerClientvue_type_template_id_2230a3ea_staticRenderFns,
   false,
   null,
   null,
